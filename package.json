@@ -1,0 +1,27 @@
+{
+  "author": "Santosh Rajan (https://github.com/santoshrajan)",
+  "name": "lispyscript",
+  "description": "A javascript with macros",
+  "keywords": ["javascript", "language", "coffeescript", "compiler"],
+  "version": "0.0.1",
+  "licenses": [{
+    "type": "MIT",
+	"url": "https://github.com/santoshrajan/lispyscript/raw/master/LICENSE"
+  }],
+  "homepage": "https://github.com/santoshrajan/lispyscript",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/santoshrajan/lispyscript.git"
+  },
+  "main": "./lib/lispy",
+  "bin": {
+    "lispy": "./bin/lispy"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "dependencies": {
+	  "underscore": "1.3.3"
+  }
+  "devDependencies": {}
+}
